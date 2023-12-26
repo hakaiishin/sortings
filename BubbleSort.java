@@ -47,6 +47,7 @@ public class BubbleSort {
         BubbleSort.sort(A);
         BubbleSort.arrayDisplay(A);
 
+        System.out.print("The second biggest nubmer is:"+ A[A.length-2]);
         input.close();
     }
 }
